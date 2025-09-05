@@ -51,3 +51,10 @@ INSERT INTO visits VALUES (default, 7, '2013-01-01', 'rabies shot');
 INSERT INTO visits VALUES (default, 8, '2013-01-02', 'rabies shot');
 INSERT INTO visits VALUES (default, 8, '2013-01-03', 'neutered');
 INSERT INTO visits VALUES (default, 7, '2013-01-04', 'spayed');
+
+
+INSERT INTO pet_type_details (pet_type_id, temperament, length_cm, weight_kg, coat_color, notes)
+VALUES (1, 'FRIENDLY', 35.00, 12.00, 'Brown', 'Common companion animal');
+
+INSERT INTO pet_type_details (pet_type_id, temperament, length_cm, weight_kg, coat_color, notes)
+VALUES (2, 'CALM', 28.00, 4.50, 'White', 'Independent temperament');
